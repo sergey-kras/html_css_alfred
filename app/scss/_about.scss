@@ -1,0 +1,25 @@
+.about{
+    background-color: #172b4a;
+    padding-bottom: 95px;
+    .container{
+        &_title{
+            padding-top: 100px;
+            h3{
+                letter-spacing: 1.5px;
+                color: #fefdfd;
+            }
+        }
+    }
+    &__text{
+        @include col();
+        @include size(10);
+        text-align: center;
+        margin: 0 auto;
+        color: #fefefe;
+        font-family: "Open Sans";
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: 0.42px;
+    }
+}
