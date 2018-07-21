@@ -1,0 +1,11 @@
+.gallery{
+    position: relative;
+    .circle{
+        z-index: -1;
+        position: absolute;
+        top: 70px;
+        right: 120px;
+        width: 282px;
+        height: 282px;
+    }
+}
