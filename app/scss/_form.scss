@@ -1,0 +1,59 @@
+.form{
+    background-color: #ffc703;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .form-content{
+        @include size(10);
+        @include col();
+        margin: 0 auto;
+        background-color: #172b4a;
+        box-shadow: 4px 6px 18px 3px rgba(43, 43, 43, 0.43);
+        display: flex;
+        &__image{
+            width: 50%;
+            img{
+                width: 100%;
+                margin-bottom: -3px;
+            }
+        }
+        &__form{
+            text-align: center;
+            padding: 0 50px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            .form__title{
+                color: #fffefe;
+                font-family: "Roboto Slab";
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 21px;
+                letter-spacing: 0.57px;
+            }
+            form{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                input[type='text']{
+                    border: none;
+                    background: none;
+                    border-bottom: 1px solid #ffffff77;
+                    outline: none;
+                    color: #fff;
+                    padding-bottom: 5px;
+                    font-family: "Open Sans";
+                    font-weight: 400;
+                    font-style: italic;
+                    font-size: 15px;
+                    letter-spacing: 0.6px;
+                    margin-bottom: 30px;
+                }
+            }
+            .button{
+                margin-bottom: 40px;
+            }
+        }
+    }
+}

@@ -77,7 +77,7 @@
             line-height: 30px;
             letter-spacing: 0.5px;
         }
-        .button{
+        @at-root .button{
             padding: 24px 38px;
             display: inline-block;
             background-color: #ffc703;
